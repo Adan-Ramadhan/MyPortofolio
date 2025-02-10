@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --font-poppins: Poppins;
+
+  --color-primary: #000957;
+  --color-second: #344cb7;
+  --color-three: #ffeb00;
+}
+
+h1 {
+  font-family: Poppins;
+}
+
+h2 {
+  font-family: Poppins;
+}
+
+h3 {
+  font-family: Poppins;
+}
+h4 {
+  font-family: Poppins;
+}
+h5 {
+  font-family: Poppins;
+}
+
+p {
+  font-family: Poppins;
+}
