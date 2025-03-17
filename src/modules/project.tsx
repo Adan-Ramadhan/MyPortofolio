@@ -3,13 +3,17 @@ import { portofolios } from "../sources/portofolio";
 import { TPortofolio } from "../types/portofolio";
 
 const Project = () => {
-  const dataProject: TPortofolio[] = portofolios;
+  const dataProject: TPortofolio[] = [...portofolios].reverse();
+
+  
 
   const [isActive, setIsActive] = useState("all");
 
   function selectedPortofolio(title: string) {
     setIsActive(title);
   }
+
+  console.log(dataProject)
 
   const filterClientPortofolio = dataProject.filter(
     (name) => name.category === "client"
