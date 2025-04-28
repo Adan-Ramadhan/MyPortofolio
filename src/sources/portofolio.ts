@@ -6,6 +6,7 @@ export const portofolios = [
     link: "https://artapuri.co.id/",
     category: "client",
   },
+
   {
     image: "/asset/bcolebak.png",
     title: "Portal Berita BCO Lebak",
@@ -74,6 +75,13 @@ export const portofolios = [
     title: "Financial Planner Management",
     desk: "Company Profile",
     link: "https://genfrugal.my.id/",
+    category: "client",
+  },
+  {
+    image: "/asset/atria.png",
+    title: "Atria Store",
+    desk: "E Commerce",
+    link: "https://atria.co.id/",
     category: "client",
   },
   {

@@ -19,7 +19,7 @@ const social = [
   },
 ];
 
-const Contact = () => {
+const ContactModule = () => {
   return (
     <div className="w-full min-h-full">
       <div className="w-full md:w-1/2 md:mx-auto p-3">
@@ -37,4 +37,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default ContactModule;

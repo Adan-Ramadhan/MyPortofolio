@@ -2,7 +2,7 @@ import { useState } from "react";
 import { portofolios } from "../sources/portofolio";
 import { TPortofolio } from "../types/portofolio";
 
-const Project = () => {
+const ProjectModule = () => {
   const dataProject: TPortofolio[] = [...portofolios].reverse();
 
   
@@ -13,7 +13,6 @@ const Project = () => {
     setIsActive(title);
   }
 
-  console.log(dataProject)
 
   const filterClientPortofolio = dataProject.filter(
     (name) => name.category === "client"
@@ -92,4 +91,4 @@ const Project = () => {
   );
 };
 
-export default Project;
+export default ProjectModule;

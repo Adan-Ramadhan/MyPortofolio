@@ -1,4 +1,4 @@
-const Hero = () => {
+const HeroModule = () => {
   return (
     <div className="w-full min-h-full">
       <div className="w-full md:w-1/2 md:mx-auto my-5 p-3 text-center ">
@@ -10,4 +10,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default HeroModule;
